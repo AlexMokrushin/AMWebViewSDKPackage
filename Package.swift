@@ -24,6 +24,6 @@ let package = Package(
         .target(
             name: "WebViewSDK",
             dependencies: [],
-            resources: [.copy("SDKMain.storyboard")]),
+            resources: [.copy("WebViewSDK/WebViewSDK/SDKMain.storyboard")]),
     ]
 )
